@@ -1,0 +1,6 @@
+pandas==3.0.5
+spacy==3.8.15
+nltk==3.10.3
+gensim==4.4.0
+numpy==2.5.2
+torch==2.13.0
