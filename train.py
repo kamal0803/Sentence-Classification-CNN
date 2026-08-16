@@ -84,4 +84,4 @@ def train_model(model, train_sentences, Y_train, test_sentences, Y_test, vocab, 
             print(f"Early stopping at epoch {epoch + 1} (best Test Accuracy = {early_stopping.best_score:.4f})")
             break
 
-    return model
+    return model, early_stopping.best_score
