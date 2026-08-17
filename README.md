@@ -58,6 +58,8 @@ This trains all four model variants (rand, static, non-static, multichannel) seq
 
 Below are the results for best test accuracy per model variant, with early stopping applied.
 
+For the TREC dataset, the static channel gave the best results, and for SST-2, non-static outperformed the rest.
+
 Dataset | rand | static | non-static | multichannel
 --- | --- | --- | --- | ---
 TREC | 88.6 | **89.8** | 88 | 89.6
