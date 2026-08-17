@@ -22,6 +22,10 @@ Although the original paper used 7 different datasets for experimentation, I use
 
 `main.py` currently trains on SST-2 and TREC is commented out.
 
+## Preprocessing
+
+Although I wasn't sure if preprocessing of text was performed in the original paper, I did some cleaning of text data by lower casing, removing hidden characters and stripping white spaces.
+
 ## Project structure
 
 ```
@@ -56,8 +60,8 @@ Below are the results for best test accuracy per model variant, with early stopp
 
 Dataset | rand | static | non-static | multichannel
 --- | --- | --- | --- | ---
-TREC | 88.6 | 89.8 | 88 | 89.6
-SST-2 | 73.64 | 77.81 | 80.18 | 76.6
+TREC | 88.6 | **89.8** | 88 | 89.6
+SST-2 | 73.64 | 77.81 | **80.18** | 76.6
 
 ## Reference
 
